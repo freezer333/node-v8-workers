@@ -6,8 +6,8 @@ var obj = { 	x: 0  };
 addon.setup(obj);
 console.log(obj);
 
-addon.mutate(obj);
+addon.mutate();
 console.log(obj);
 
-addon.mutate(obj);
+addon.mutate();
 console.log(obj);
